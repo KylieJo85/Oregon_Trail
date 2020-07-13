@@ -3,21 +3,34 @@ class wagon{
         this.capacity=capacity
         this.passengers=[]
     }
-    
+
+getAvailableSeatCount(){
+
+ return this.capacity-this.passengers.length
+
+
 }
 
-getAvailableSeatCount()
 
-console.log()
+join(traveler){
+if(this.getAvailableSeatCount()>0){
+this.passengers.push(traveler)
+}
+}
 
-join()
 
-console.log()
+shouldQuarantine(){
+let unhealthPersonOnWagon=this.passengers.some(oneSickPerson=>this.passengers===true)
 
-shouldQuarantine()
-.some
-console.log()
+}
 
-totalFood()
 
-console.log()
+totalFood(){
+
+let inTheWagon=this.passengers.reduce((totalAmountOfFood,amongAllPassengers=>totalAmountOfFood)+this.passengers.food,0)
+
+}
+
+
+
+}
