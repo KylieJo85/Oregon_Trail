@@ -20,7 +20,7 @@ this.passengers.push(traveler)
 
 
 shouldQuarantine(){
-let unhealthPersonOnWagon=this.passengers.some(oneSickPerson=>this.passengers===true)
+let unhealthyPersonOnWagon=this.passengers.some(oneSickPassenger=>this.passengers===true)
 
 }
 
