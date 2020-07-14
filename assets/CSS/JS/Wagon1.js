@@ -1,4 +1,4 @@
-class wagon{
+class Wagon{
     constructor(capacity){
         this.capacity=capacity
         this.passengers=[]
@@ -18,18 +18,14 @@ this.passengers.push(traveler)
 
 
 shouldQuarantine(){
-let personsInWagon=this.passengers.some(travelers=>this.passengers===true)
-
-
-
-
+this.passengers.some(traveler=>traveler.isWell===false)
 
 }
 
 
 
 totalFood(){
-let allPassengersInTheWagon=this.passengers.reduce((travelers,totalAmountOfFood)=>travelers+this.passengers,0)
+this.passengers.reduce((totalAmountOfFood,sharedAmongPassengers)=>totalAmountOfFood+sharedAmongPassengers.food,0)
 }
 
 

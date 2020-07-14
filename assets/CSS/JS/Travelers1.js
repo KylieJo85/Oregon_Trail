@@ -1,6 +1,6 @@
 //Thank you to Doug, Cynthia, Lesa, and Colin for reminding me to have two separate files for each class (travelers and wagons.)
 
-class travelers{
+class Traveler{
     constructor(name){
     this.name=name
     this.food=1
